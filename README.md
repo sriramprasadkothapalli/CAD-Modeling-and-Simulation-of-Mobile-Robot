@@ -32,5 +32,16 @@ ros2 run toy_car teleop.py
 ```
 
 - Mobile robot in the Gazebo and Rviz envirmonment
-- 
+
+![p1 gzrviz](https://github.com/sriramprasadkothapalli/CAD-Modeling-and-Simulation-of-Mobile-Robot/assets/143056659/b2f80ed4-237b-4795-b6e2-cc142b9c72c8)
+
+- To make Robot move to [10,10] location, a proportional controller is used, to make the robot move, run the below commands
+```
+source WS_DIRECTORY/install/setup.bash
+ros2 launch toy_car gazebo.launch.py
+ros2 run toy_car p_controller.py
+```
+## Results 
+- [Teleop](https://drive.google.com/file/d/141weB6x8F-j0YxN88nPRulcDrmmHv0vg/view?usp=sharing)
+- [Proportional Controller](https://drive.google.com/file/d/1JutA0L2NpVbp9G4MeJvpsdbmqqcM7HtV/view?usp=sharing)
 
