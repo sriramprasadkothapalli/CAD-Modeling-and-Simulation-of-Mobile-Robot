@@ -1,4 +1,4 @@
-# CAD Modeling and Simulation of Mobile-Robot
+# CAD Modeling and Simulation of Mobile Robot
 
 ## Mobile Robot image:
 The mobile robot is modeled in Solidworks
